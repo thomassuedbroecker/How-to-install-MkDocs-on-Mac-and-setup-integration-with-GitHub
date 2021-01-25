@@ -1,0 +1,86 @@
+# Project information
+site_name: Your Project
+site_url: https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
+site_author: Thomas Südbröcker
+
+# Repository
+repo_name: How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
+repo_url: https://github.com/thomassuedbroecker/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub
+edit_uri: edit/master/documentation
+docs_dir: documentation
+
+# Navigation
+nav:
+  - Welcome:
+    - Overview: README.md 
+  - Steps:
+    - 1 MkDocs installation on Mac: steps/1-MkDocs-installation-on-Mac.md 
+    - 2 Verify your documentation and build the pages: steps/2-Verify-your-documentation-and-build-the-pages.md
+    - 3 Setup the integration to your GitHub project: steps/3-Setup-the-integration-to-your-GitHub-project.md
+
+## DO NOT CHANGE BELOW THIS LINE
+
+# Copyright
+# TBD
+
+# Theme
+theme:
+  name: material
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    logo: material/library
+  features:
+    # - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+
+# Plugins
+plugins:
+  - search
+
+# Customization
+# TBD
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
