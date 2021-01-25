@@ -1,4 +1,4 @@
-# How to install MkDocs on Mac and setup integration with GitHub?
+# How to install MkDocs on Mac and setup the integration the GitHub pages?
 
 The project contains the simplified steps to setup [MkDocs](https://www.mkdocs.org) for your GitHub project. These are tools/functionalities for the two setups.
 

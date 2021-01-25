@@ -1,12 +1,10 @@
-# Setup the integration to your GitHub project
+# Integrate the documentation with [GitHub CI](https://docs.github.com/en/actions/guides/about-continuous-integration)
 
 ### Step 1: Add folder to `.gitignore`
 
 ```sh
 echo "site/" >> .gitignore
 ```
-
-# Integrate the documentation with [GitHub CI](https://docs.github.com/en/actions/guides/about-continuous-integration)
 
 ### Step 2: Create a two folders in your project
 
