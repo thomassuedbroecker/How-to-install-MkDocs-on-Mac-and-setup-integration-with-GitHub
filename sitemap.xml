@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub/</loc>
+         <lastmod>2023-11-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub/steps/1-MkDocs-installation-on-Mac/</loc>
+         <lastmod>2023-11-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub/steps/2-Verify-your-documentation-and-build-the-pages/</loc>
+         <lastmod>2023-11-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://thomassuedbroecker.github.io/How-to-install-MkDocs-on-Mac-and-setup-integration-with-GitHub/steps/3-Setup-the-integration-to-your-GitHub-project/</loc>
+         <lastmod>2023-11-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
